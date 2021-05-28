@@ -119,8 +119,9 @@
 
 // console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`)
 
-
 const bill = 430;
-const tip = bill >=50 && bill <=300 ? bill * .15 : bill  * .20;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 const total = bill + tip;
-console.log(`El monto es: $${bill} y la propina $${tip}, dando un total de $${total}`)
+console.log(
+  `El monto es: $${bill} y la propina $${tip}, dando un total de $${total}`
+);
